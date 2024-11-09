@@ -8,6 +8,7 @@ public class Auto {
     Motor motor;
     int registro;
     static String cantidadCreados;
+    
     int cantidadAsientos(){
     int casientos=0;
        for(int i=0;i<asientos.length;i++) {
@@ -17,6 +18,7 @@ public class Auto {
        }
        return casientos;
     }
+    
     String verificarIntegridad(){
     	
     	if(registro!=motor.registro) {
